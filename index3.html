@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title></title>
+			<meta charset="utf-8">
+			<style type="text/css">
+			body {background-image:url('images/back1.jpg');
+			  background-repeat:repeat;
+			  background-position:center;}
+			form {color:blue;font-size:20px;font-weight:bold;}
+			h1,h2,h3 {color:gray;font-size:30px;}
+			a:hover, a:active {background-color: pink;}
+		</style>
+	</head>
+	<body>
+		<form action="update.php" method="post">
+		<h1>최도현의 진로는?</h1>
+		<input type="radio" name="job" value="one"/>1.엔지니어<br/>
+		<input type="radio" name="job" value="two"/>2.금융업<br/>
+		<input type="radio" name="job" value="three"/>3.자영업<br/>
+		<input type="radio" name="job" value="four"/>4.사업가<br/>
+		<input type="radio" name="job" value="five"/>5.운동선수<br/>
+		<input type="radio" name="job" value="sex"/>6.아무 생각 없다.<br/>
+		<h2>최도현의 모습은?(다중선택 가능)</h2>
+		<input type="checkbox"/>1.매력적
+		<input type="checkbox"/>2.호감형
+		<input type="checkbox"/>3.잘생김<br/>
+		<input type="checkbox"/>4.터프함
+		<input type="checkbox"/>5.섹시함
+		<input type="checkbox"/>6.귀여움
+		<input type="checkbox"/>7.깜찍함
+		<h3>최도현에게 하고싶은말..</h3>
+		<textarea cols="30" rows="5" name="talk"></textarea><br/>
+		<input type="submit"/>
+		</form>
+		<a href="index.html">1page</a>
+		<a href="index2.html">2page</a>
+	</body>
+</html>
