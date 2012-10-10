@@ -1,0 +1,23 @@
+#wrap {width:960px; margin:0 auto; background-color:#ffff73;}
+#top {
+	width:950px; color:#47036f;
+	padding:0 10px 15px 0;
+	text-align:right; font-weight:bold;
+}
+#top a {color:#eee; text-decoration: none;padding: 10px;}
+#top a:hover {background-color: red;}
+#left {margin: top;}
+
+/*navigation*/
+#navbar {width:960px; height: 30px;background-color:#59ea3a;}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{color:#eee;background-color:#4683a4;
+				display: block;
+				width:150px;
+				text-align: center;
+				padding: 0px 10px;
+				text-decoration:none;
+				margin-right: 10px;}
+#navbar ul li a.selected {background-color:#94c713;}
+#navbar ul li a:hover {background-color:#709647;}
