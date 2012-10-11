@@ -1,23 +1,37 @@
-#wrap {width:960px; margin:0 auto; background-color:#ffff73;}
+/*wrap*/
+#wrap {width:1366px; margin: auto; background-color:#ffff73;}
 #top {
-	width:950px; color:#47036f;
-	padding:0 10px 15px 0;
-	text-align:right; font-weight:bold;
+	width:1366px; color:#47036f;
+	padding:10 10px 10px 10;
+	text-align:right;font-weight:bold;
 }
+#top h1 {font-size: 27px;}
 #top a {color:#eee; text-decoration: none;padding: 10px;}
-#top a:hover {background-color: red;}
+#top a:hover {background-color: blue;}
 #left {margin: top;}
 
 /*navigation*/
-#navbar {width:960px; height: 30px;background-color:#59ea3a;}
+#navbar {width:1366px; height: 30px;background-color:#fff;}
 #navbar ul {margin:0;padding:0;}
 #navbar ul li {float:left;}
 #navbar ul li a{color:#eee;background-color:#4683a4;
 				display: block;
-				width:150px;
+				width:240px;
 				text-align: center;
-				padding: 0px 10px;
+				padding: 5px 10px;
 				text-decoration:none;
-				margin-right: 10px;}
-#navbar ul li a.selected {background-color:#94c713;}
-#navbar ul li a:hover {background-color:#709647;}
+				margin-right: 6px;
+				margin-left: 7px;}
+#navbar ul li a.selected {background-color:#fff;}
+#navbar ul li a:hover {background-color:#7446d7;}
+
+/*content*/
+#content div.section_3 {width:1000px;
+	margin-top: 70px;
+	margin-left: 615px;
+	border:1px bold #d7e9f9;
+border-radius:10px; overflow:auto;}
+#hobby {font-size: 22px; font-style: italic; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+#choice {font-size: 22px; font-style: italic; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+/*-footer-*/
+#footer {background-color:#fff; color:#000; text-align:center; padding: 20px;}
