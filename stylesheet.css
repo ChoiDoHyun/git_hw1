@@ -1,5 +1,5 @@
 /*wrap*/
-#wrap {width:1366px; margin: auto; background-color:#ffff73;}
+#wrap {width:1366px; margin: auto; background-color:#fff;}
 #top {
 	width:1366px; color:#47036f;
 	padding:10 10px 10px 10;
@@ -16,22 +16,30 @@
 #navbar ul li {float:left;}
 #navbar ul li a{color:#eee;background-color:#4683a4;
 				display: block;
-				width:240px;
+				width:300px;
 				text-align: center;
-				padding: 5px 10px;
+				padding: 10px 10px;
 				text-decoration:none;
 				margin-right: 6px;
-				margin-left: 7px;}
+				margin-left: 9px;}
 #navbar ul li a.selected {background-color:#fff;}
 #navbar ul li a:hover {background-color:#7446d7;}
 
 /*content*/
-#content div.section_3 {width:1000px;
+#content  {width:1000px;
 	margin-top: 70px;
 	margin-left: 615px;
-	border:1px bold #d7e9f9;
+	border:1px; font-weight:bold;
 border-radius:10px; overflow:auto;}
-#hobby {font-size: 22px; font-style: italic; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
-#choice {font-size: 22px; font-style: italic; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+
+#hobby {font-size: 22px; font-style: bold; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+#hobby1 {font-size: 22px; font-style: bold; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+#hobby2 {font-size: 22px; font-style: bold; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+#choice {font-size: 22px; font-style: bold; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+#choice1 {font-size: 22px; font-style: bold; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+#choice2 {font-size: 22px; font-style: bold; color: #7446d7; margin-top: 10px; margin-bottom: 20px;}
+
+
 /*-footer-*/
-#footer {background-color:#fff; color:#000; text-align:center; padding: 20px;}
+#footer {background-color:#ddd; color:#000; text-align:center; padding: 20px;}
+
